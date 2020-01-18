@@ -28,8 +28,10 @@ a) Provide a description of model settings and parameters, and details of model 
                                                 7. Use K fold cross validation
 
 b) Short listed features selected by the model
+https://github.com/codeCleanAlways/phase1/blob/master/sc1_phase1/sc1_phase1_selected_features_genes_list
 
 c) Link to complete code in a public GitHub repository 
+https://github.com/codeCleanAlways/phase1/blob/master/sc1_phase1/sc1_phase1_GE_survival_prediction.ipynb
 
 d) Confusion matrix indicating number of predictions, true positives, false positives, true negatives, and false negatives 
             
@@ -70,8 +72,10 @@ a) Provide a description of model settings and parameters, and details of model 
                                                 7. Use K fold cross validation
 
 b) Short listed features selected by the model
+https://github.com/codeCleanAlways/phase1/blob/master/sc2_phase1/sc2_phase1_CN_selected_features_list
 
-c) Link to complete code in a public GitHub repository 
+c) Link to complete code in a public GitHub repository
+https://github.com/codeCleanAlways/phase1/blob/master/sc2_phase1/sc2_phase1_CN_survival_prediction.ipynb
 
 d) Confusion matrix indicating number of predictions, true positives, false positives, true negatives, and false negatives 
 
@@ -115,8 +119,10 @@ a) Provide a description of model settings and parameters, and details of model 
                                                 7. Use K fold cross validation
 
 b) Short listed features selected by the model
+https://github.com/codeCleanAlways/phase1/blob/master/sc3_phase1/sc3_phase1_CN_GE_selected_features
 
 c) Link to complete code in a public GitHub repository 
+https://github.com/codeCleanAlways/phase1/blob/master/sc3_phase1/sc3_phase1_CN_GE_survival_prediction.ipynb
 
 d) Confusion matrix indicating number of predictions, true positives, false positives, true negatives, and false negatives 
 
