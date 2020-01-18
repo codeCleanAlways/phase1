@@ -6,54 +6,128 @@ Summary-Phase1-Sub-challenge-1
 ------------------------------
 a) Provide a description of model settings and parameters, and details of model building including dataset(s) description(s) used for training, cross validation and testing (number of samples, number of features, etc.) 
 
+                    Classifier Algorithm Used- Support Vector Machine - RBF Kernel
+
+                    Total Number of Samples - 561 with resampling
+                                                GBM                  212
+                                                ASTROCYTOMA          155
+                                                UNKNOWN              117
+                                                OLIGODENDROGLIOMA     70
+                                                MIXED                  6
+                                                UNCLASSIFIED           1
+
+                    Training-Test Split - 90% training, 10% testing
+
+                    Dataset Pre-Processing - 
+                                                1. Drop columns with missing values
+                                                2. Convert WHO grading to numeric
+                                                3. Select K most valuable features by chi scores
+                                                4. Drop highly correlated features
+                                                5. Use remaining features for model development
+                                                6. Resample dataset to balance survival entities
+                                                7. Use K fold cross validation
+
 b) Short listed features selected by the model
 
 c) Link to complete code in a public GitHub repository 
 
 d) Confusion matrix indicating number of predictions, true positives, false positives, true negatives, and false negatives 
+            
+                             Dead    Alive
+                    Dead     30       00
+                    Alive    01       24
 
-e) Overall accuracy 
+e) Overall accuracy 98.18%
 
-f) Specificity
+f) Specificity 1.0
 
-g) Sensitivity 
+g) Sensitivity 0.967
 
-h) Area under the curve (AUC)
+h) Area under the curve (AUC) 0.983
 
 ------------------------------
 Summary-Phase1-Sub-challenge-2
 ------------------------------
 a) Provide a description of model settings and parameters, and details of model building including dataset(s) description(s) used for training, cross validation and testing (number of samples, number of features, etc.) 
 
+                    Classifier Algorithm Used- Neural Network - Relu activation, layer size 10-8, lbfgs optimization
+
+                    Total Number of Samples - 348 with resampling
+                                                    GBM                  192
+                                                    ASTROCYTOMA          100
+                                                    OLIGODENDROGLIOMA     56
+                                                    Name: CANCER_TYPE, dtype: int64
+
+                    Training-Test Split - 90% training, 10% testing
+
+                    Dataset Pre-Processing - 
+                                                1. Drop columns with missing values
+                                                2. Convert WHO grading to numeric
+                                                3. Select K most valuable features by chi scores
+                                                4. Drop highly correlated features
+                                                5. Use remaining features for model development
+                                                6. Resample dataset to balance survival entities
+                                                7. Use K fold cross validation
+
 b) Short listed features selected by the model
 
 c) Link to complete code in a public GitHub repository 
 
 d) Confusion matrix indicating number of predictions, true positives, false positives, true negatives, and false negatives 
 
-e) Overall accuracy 
+                             Dead    Alive
+                    Dead     17       00
+                    Alive    01       16
 
-f) Specificity
+e) Overall accuracy 97%
 
-g) Sensitivity 
+f) Specificity 1.00
 
-h) Area under the curve (AUC)
+g) Sensitivity 0.94
+
+h) Area under the curve (AUC) 0.97
 
 ------------------------------
 Summary-Phase1-Sub-challenge-3
 ------------------------------
 a) Provide a description of model settings and parameters, and details of model building including dataset(s) description(s) used for training, cross validation and testing (number of samples, number of features, etc.) 
 
+                    Classifier Algorithm Used- Support Vector Machine - RBF Kernel
+
+                    Total Number of Samples - 450 with resampling
+                                                GBM                  196
+                                                UNKNOWN               93
+                                                ASTROCYTOMA           87
+                                                OLIGODENDROGLIOMA     49
+                                                MIXED                 14
+                                                UNCLASSIFIED           1
+                                                Name: CANCER_TYPE, dtype: int64
+
+                    Training-Test Split - 90% training, 10% testing
+
+                    Dataset Pre-Processing - 
+                                                1. Drop columns with missing values
+                                                2. Convert WHO grading to numeric
+                                                3. Select K most valuable features by chi scores
+                                                4. Drop highly correlated features
+                                                5. Use remaining features for model development
+                                                6. Resample dataset to balance survival entities
+                                                7. Use K fold cross validation
+
 b) Short listed features selected by the model
 
 c) Link to complete code in a public GitHub repository 
 
 d) Confusion matrix indicating number of predictions, true positives, false positives, true negatives, and false negatives 
 
-e) Overall accuracy 
+                             Dead    Alive
+                    Dead     23       01
+                    Alive    00       20
 
-f) Specificity
+e) Overall accuracy 97.72%
 
-g) Sensitivity 
+f) Specificity 1.0
 
-h) Area under the curve (AUC)
+g) Sensitivity 0.954
+
+h) Area under the curve (AUC) 0.979
